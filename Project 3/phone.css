@@ -1,0 +1,92 @@
+/* Navigation */
+#navbar{
+    flex-direction: column;
+}
+
+#navbar ul li a{
+    font-size: 10px;
+    position: sticky;
+}
+#logo{
+    margin: 3px autp;
+
+}
+
+#logo img{
+    width: 80px;
+    height: 80px;
+}
+/* Home */
+#home{
+    height: 766px;
+}
+
+#home button{
+    width: 50%;
+}
+
+#home::before{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+/* Courses */
+#courses_cont{
+    margin-top: 270px;
+}
+
+#course{
+        display: flex;
+        flex-direction: column;
+}
+#course .box{
+    margin-bottom: 27px;
+    height: 368px;
+    padding: 15px;
+    width: 84%;
+}
+
+/* About */
+#aboutus{
+   margin: 70px;
+}
+
+#aboutus h1{
+   margin-top: -40px;
+   display: block;
+   font-size: 2.8rem;
+}
+#aboutus::before{
+    margin: 800px 0px;
+    height: 75%;
+    background-size: contain;
+    
+}
+#aboutus p{
+    font-size: 4px;
+    padding: 0px 0px;
+}
+/* Contact */
+#contact{
+    margin-top: -30px;
+
+}
+
+#contact p{
+    font-size: 1.2rem;
+}
+#contact .moto{
+    font-size: 2rem;
+}
+/* Footer */
+
+
+/* Utility Classes */
+.primary{
+    font-size: 2.8rem;
+    margin-top: -210px;
+}
+.btn{
+    padding: 3px 10px;
+    font-size: 0.9rem;
+}

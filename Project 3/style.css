@@ -1,0 +1,224 @@
+/* CSS Reset */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+body{
+    /* background-color: rgb(0, 0, 0); */
+}
+
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#navbar ul{
+    display: flex;
+}
+/* Navigatio bar: Logo and image */
+#logo{
+    margin: 3px  1px;
+}
+
+#logo img{
+    margin: 5px 10px;
+    height: 100px;
+    /* mix-blend-mode: color-burn; */
+}
+/* Navigation bar: List items styling */
+#navbar ul li{
+    position: sticky;
+    list-style: none;
+}
+#navbar ul li a{
+    text-decoration: none;
+    padding: 3px 25px;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    display: block;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+     }
+    #navbar ul li a:hover{
+        color: rgb(255, 6, 6);
+        border-bottom: 1px solid black;
+    }
+
+/* Home Section */
+#home{
+    color: rgb(255, 255, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 800px;
+    margin: 23px;
+}
+#home button{
+    display: flex;
+    margin: 21px;
+    justify-content: center;
+    width: 12%;
+}
+#home::before{
+    content:"";
+    background: url('books-933333_1280.jpg') no-repeat center center/cover ;
+    position:absolute;
+    z-index: -1;
+    width: 100%;
+    height: 1000px;
+    opacity: 1;
+    left: 0%;
+    top: 0%;
+}
+#home p{
+    margin-left: 23px;
+    font-size: 1.2rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Courses Section */
+#course{
+    margin: 0px;
+    display: flex;
+}
+
+#course .box{
+    margin: 5px 15px;
+    border: 2px solid orangered;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+#course .box img{
+    margin-bottom: 23px;
+   height: 100px;
+   /* mix-blend-mode: color-burn; */
+   display: block;
+   margin: auto;
+}
+
+#course p{
+    margin-bottom: 23px;
+    color: rgb(0, 0, 0);
+    font-size: 1.1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+/* Utility Classes */
+.primary{
+    font-size: 2.8rem;
+    padding: 23px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.btn{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    padding: 3px 15px;
+    font-size: 1.2rem;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: rgb(202, 76, 31);
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.btn:hover{
+    background-color: rgb(228, 79, 26);
+}
+.center{
+    text-align: center;
+}
+.secondary{
+    font-size: 2.4rem;
+    padding: 10px;
+}
+/* About Section */
+/* #aboutus img{
+    display: block;
+    margin: 23px auto;
+    height: 200px;
+    width: 200px;
+} */
+
+#aboutus::before{
+    content:"";
+    background: url('logo.png') no-repeat center center/cover ;
+    position:absolute;
+    z-index: -1;
+    width: 100%;
+    height: 1000px;
+    opacity:1;
+    top: 1500px;
+    left: 0%;
+
+}
+
+#aboutus p{
+    text-align: center;
+    padding: 15px 100px;
+    color: rgb(255, 255, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#aboutus h1{
+    color: white;
+}
+/* #aboutus h1:hover{
+    color: white;
+    border-bottom: 2px solid rgb(240, 8, 8);
+    margin: auto;
+    width: 15%;
+} */
+/* Contact Us Section */
+#contact p{
+    color: rgb(172, 166, 166);
+    font-size: 1.3rem;
+}
+#contact{
+    padding: 50px;
+    margin-top: 200px;
+    margin-left: 0px;
+    top: 0%;
+    background-color: rgb(49, 49, 49);
+}
+#contact img{
+    height: 100px;
+    width: 100px;
+}
+#contact .moto{
+    font-size: 3rem;
+    padding: 12px;
+    margin-left: -12px;
+}
+#contact h1{
+    margin-top: -40px;
+    color: white;
+}
+/* #contact h1:hover{
+    border-bottom: 2px solid rgb(240, 8, 8);
+    margin: auto;
+    width: 20%;
+} */
+#socials ul{
+    display: flex;
+}
+#socials ul li{
+    list-style: none;
+}
+#socials ul li a img{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    padding: 6px;
+}
+
+footer p{
+    background-color: rgb(37, 36, 36);
+    color: white;
+    padding: 13px 0px;
+}
+
